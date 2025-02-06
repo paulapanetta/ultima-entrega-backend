@@ -1,0 +1,24 @@
+{
+  "name": "proyecto-entregable-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/app.js",
+    "start": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-handlebars": "^8.0.1",
+    "js": "^0.1.0",
+    "mongoose": "^8.10.0",
+    "mongoose-paginate-v2": "^1.9.0",
+    "node": "^23.7.0",
+    "nodemon": "^3.1.9",
+    "socket.io": "^4.8.1"
+  }
+}
